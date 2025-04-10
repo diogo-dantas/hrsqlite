@@ -1,0 +1,33 @@
+# Ignorar arquivos de sistema e IDE
+.DS_Store               # Arquivo específico do macOS
+Thumbs.db               # Arquivo específico do Windows
+.idea/                  # Diretório da IDE JetBrains (como IntelliJ, PyCharm)
+.vscode/                # Diretório da IDE VSCode
+
+# Ignorar dependências de pacotes e bibliotecas
+node_modules/           # Diretório de dependências do Node.js
+venv/			# Diretório de ambientes virtuais Python
+*.pyc                   # Arquivos compilados do Python
+*.pyo                   # Arquivos otimizados do Python
+*.pdb                   # Arquivos de depuração do Python
+*.log                   # Arquivos de log
+
+# Ignorar arquivos de compilação ou binários
+*.exe                   # Arquivos executáveis
+*.dll                   # Arquivos de bibliotecas do Windows
+*.so                    # Bibliotecas compartilhadas no Linux
+*.dmg                   # Arquivos de imagem do macOS
+
+# Ignorar arquivos temporários
+*.swp                   # Arquivos temporários do Vim
+*.swo                   # Arquivos temporários do Vim
+*.bak                   # Arquivos de backup
+
+# Ignorar arquivos específicos de banco de dados
+*.sqlite3               # Arquivos de banco de dados SQLite
+
+# Ignorar arquivos de configuração locais (exemplo de Python)
+.env                    # Arquivos de configuração de ambiente
+config_local.json       # Arquivos de configuração local
+
+# Ignorar arquivos
