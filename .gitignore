@@ -5,7 +5,7 @@ Thumbs.db               # Arquivo específico do Windows
 .vscode/                # Diretório da IDE VSCode
 
 # Ignorar dependências de pacotes e bibliotecas
-.ipynb_checkpoints/
+.ipynb_checkpoints
 node_modules/           # Diretório de dependências do Node.js
 venv/			# Diretório de ambientes virtuais Python
 *.pyc                   # Arquivos compilados do Python
